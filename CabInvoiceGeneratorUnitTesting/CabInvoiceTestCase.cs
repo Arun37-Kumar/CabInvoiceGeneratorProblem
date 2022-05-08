@@ -38,6 +38,7 @@ namespace CabInvoiceGeneratorUnitTesting
         }
 
         // TC2.1 - Given multiple rides should return aggregate fare
+        // TC3.1 - Given multiple rides should return invoice summary
         [TestMethod]
         [TestCategory("Multiple Rides")]
         public void GivenMultipleRidesReturnAggregateFare()
